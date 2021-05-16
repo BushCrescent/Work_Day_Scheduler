@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel = "stylesheet" href = "./style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+    <title>Document</title>
+</head>
+<body class = "text-center p-5">
+    <h1>Work Day Scheduler</h1>
+    A simple calender for scheduling your work day
+    <div id = "time"></div>  
+    <div id = "hour"></div>
+</body>
+<div id = "line"></div>
+<!-- //time slots  -->
+<div class="container">
+    <div class="row time-block" hour="9">
+      <div class="col-md-1 hour">
+        9AM
+      </div>
+      <textarea id = "hour-9" class="col-md-10 description bg-secondary">
+      </textarea>
+      <button class="btn saveBtn col-md-1">Save</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row time-block" hour="10">
+      <div class="col-md-1 hour">
+        10AM
+      </div>
+      <textarea id="hour-10" class="col-md-10 description bg-secondary">
+      </textarea>
+      <button class="btn saveBtn col-md-1">Save</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row time-block" hour="11">
+      <div class="col-md-1 hour">
+        11AM
+      </div>
+      <textarea id="hour-11" class="col-md-10 description bg-secondary">
+      </textarea>
+      <button class="btn saveBtn col-md-1">Save</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row time-block" hour="12">
+      <div class="col-md-1 hour">
+        12AM
+      </div>
+      <textarea id="hour-12" class="col-md-10 description bg-secondary">
+      </textarea>
+      <button class="btn saveBtn col-md-1">Save</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row time-block" hour="13">
+      <div class="col-md-1 hour">
+        1PM
+      </div>
+      <textarea id="hour-13" class="col-md-10 description bg-secondary">
+      </textarea>
+      <button class="btn saveBtn col-md-1">Save</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row time-block" hour="14">
+      <div class="col-md-1 hour">
+        2PM
+      </div>
+      <textarea id="hour-14" class="col-md-10 description bg-secondary">
+      </textarea>
+      <button class="btn saveBtn col-md-1">Save</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row time-block" hour="15">
+      <div class="col-md-1 hour">
+        3PM
+      </div>
+      <textarea id="hour-15" class="col-md-10 description bg-secondary">
+      </textarea>
+      <button class="btn saveBtn col-md-1">Save</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row time-block" hour="16">
+      <div class="col-md-1 hour">
+        4PM
+      </div>
+      <textarea id="hour-16" class="col-md-10 description bg-secondary">
+      </textarea>
+      <button class="btn saveBtn col-md-1">Save</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row time-block" hour="17">
+      <div class="col-md-1 hour">
+        5PM
+      </div>
+      <textarea id="hour-17" class="col-md-10 description bg-secondary">
+      </textarea>
+      <button class="btn saveBtn col-md-1">Save</button>
+    </div>
+</div>
+
+<script src = "script.js"></script>
+</html>

@@ -1,0 +1,10 @@
+#line {
+    border-bottom: 10px solid #000000;
+    padding: 32px 0 48px 0;
+}
+.description {
+    border: 2px dotted #000000;
+}
+.hide {
+    display: none;
+}
